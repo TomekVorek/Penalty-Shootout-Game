@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+header,
+header>h2 {
+    background-color: #001e1d;
+    text-align: center;
+    font-size: 36px;
+    color: #001e1d;
+    margin: 20px auto;
+    padding: 5;
+    color: white;
+}
+
+.score-container {
+    position: relative;
+    max-width: 300px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin: 0 10px 0 0;
+    font-size: 24px;
+}
+
+.badges {
+    font-size: 24px;
+    border: 1px solid transparent;
+    background: #001e1d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#user-score {
+    position: absolute;
+    top: -5px;
+    left: 40px;
+}
+
+#computer-score {
+    position: absolute;
+    top: -5px;
+    right: -25px;
+}
+
+.score-container>span {
+    font-size: 24px;
+}
+
+.goal {
+    background-image: url(img/tlo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    height: 500px;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+.choice {
+    position: absolute;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgba(240, 240, 240, .3);
+}
+
+#tl {
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 85px;
+    left: 45px;
+}
+
+#tm {
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 85px;
+    left: 352px;
+}
+
+#tr {
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 85px;
+    left: 660px;
+}
+
+#bl {
+    clear: both;
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 295px;
+    left: 45px;
+}
+
+#bm {
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 295px;
+    left: 352px;
+}
+
+#br {
+    background-color: none;
+    width: 300px;
+    height: 205px;
+    float: left;
+    top: 295px;
+    left: 660px;
+}
+
+#message {
+    text-align: center;
+    font-size: 36px;
+}
+
+.succes {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
